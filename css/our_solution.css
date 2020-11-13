@@ -20,6 +20,22 @@
     font-size: 3em;
     color: darkslategrey;
 }
+.titleOS div {
+    padding: 10px;
+    text-align: center;
+}
+.titleOS a:hover {
+
+    text-decoration: underline;
+    text-decoration-color: darkslategrey;
+    text-decoration-style: solid;
+    font-weight: bold;
+}
+.titleOS a {
+    color: darkslategray;
+    text-decoration: none;
+    padding: 10px;
+}
 .textOS {
     grid-column-start: 1;
     grid-column-end: 3;
