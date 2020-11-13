@@ -32,6 +32,15 @@
     width: 50%;
 }
 
+.img-container img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    max-width: 450px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
 @media screen and (max-width: 800px){
     .img-container img {
         width: 100%;
