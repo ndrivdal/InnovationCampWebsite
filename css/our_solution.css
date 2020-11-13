@@ -1,0 +1,37 @@
+.containerOurSolution {
+    display: grid;
+    min-height: 120vh;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 1fr;
+}
+.titleOS {
+    grid-column-start: 1;
+    grid-column-end: end;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: cadetblue;
+}
+.titleOS h1 {
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 1em;
+    font-size: 3em;
+}
+.textOS {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: red;
+}
+.textOS p {
+    padding: 50px;
+}
+.imgOS {
+    grid-column-start: 3;
+    grid-column-end: end;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: yellow;
+}
