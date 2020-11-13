@@ -9,9 +9,11 @@
 }
 
 .heading-container {
+    margin-top: -22px;
     height: 100px;
     text-align: center;
     text-decoration-line: underline;
+    background-color: cadetblue;
 }
 
 .heading-container h1 {
