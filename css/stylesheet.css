@@ -86,7 +86,7 @@ body {
 .containerFullScreen {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: 10% 1fr;
     width: 100vw;
     min-height: 80vh;
 
@@ -115,41 +115,12 @@ body {
     height: 75px;
 }
 
-
-
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-}
-
-.footer-container .alignLeft img {
-    height: 50px;
-    width: auto;
-    margin: 20px;
-}
-
-.footer-container .alignRight a {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.alignLeft {
-    float: left;
-}
-
-.alignRight{
-    float: right;
-}
-
-.footer-container div.info {
-    position: absolute;
-    bottom: 50%;
-    left: 50%;
-    transform: translate(-50%, 50%);
-    text-align: left;
-    font-family: 'Karla', sans-serif;
+.main {
+    grid-row-start: 2;
+    grid-row-end:end;
+    grid-column-start: 1;
+    grid-column-end: end;
+    justify-self: start;
+    background-color: green;
+    width: 100%;
 }
