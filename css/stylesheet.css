@@ -94,6 +94,7 @@ body {
     grid-template-columns: 1fr;
     grid-template-rows: 75px 10% 10% 10% 1fr;
     min-height: 80vh;
+    background-color: #d9e0dc;
 }
 
 .containerFooter {

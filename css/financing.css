@@ -9,15 +9,16 @@
 }
 
 .heading-container {
-    margin-top: -22px;
+    margin-top: -32px;
     height: 100px;
     text-align: center;
-    text-decoration-line: underline;
     background-color: cadetblue;
 }
 
 .heading-container h1 {
     padding: 30px;
+    font-size: 3em;
+    color: darkslategrey;
 }
 
 .financing-p {
