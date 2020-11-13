@@ -24,9 +24,11 @@
     grid-row-start: 2;
     grid-row-end: 3;
     background-color: red;
+    padding: 30px;
 }
 .textOS p {
-    padding: 50px;
+    /*padding-left: 50px;
+    padding-right: 50px;*/
 }
 .imgOS {
     grid-column-start: 3;
