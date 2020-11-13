@@ -84,9 +84,9 @@ body {
 }
 
 .footer-container {
-    position: fixed;
+    position: absolute;
     left: 0;
-    bottom: 0;
+    justify-self: end;
     width: 100%;
     background-color: grey;
     color: white;
@@ -108,10 +108,24 @@ body {
     margin: 20px;
 }
 
+.footer-container .alignRight a {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .alignLeft {
     float: left;
 }
 
-.alignRight {
+.alignRight{
     float: right;
+}
+
+.footer-container div.info {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    text-align: left;
+    font-family: 'Karla', sans-serif;
 }
