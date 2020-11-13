@@ -83,15 +83,31 @@ body {
     transform: translate(0, 5px);
 }
 
-.footer-container {
-    position: absolute;
-    left: 0;
-    justify-self: end;
-    width: 100%;
+.containerFullScreen {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    width: 100vw;
+    min-height: 80vh;
+}
+
+.containerFooter {
+    grid-template-columns: 20% 1fr 1fr;
+    grid-template-rows: 20% 1fr;
+    width: 100vw;
+    min-height: 20vh;
     background-color: grey;
     color: white;
-    text-align: center;
 }
+
+.footerLogo{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    height: 75px;
+    background-color: green;
+}
+
 
 .fa {
     padding: 20px;
