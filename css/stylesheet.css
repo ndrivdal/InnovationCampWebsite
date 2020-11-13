@@ -120,7 +120,6 @@ body {
     grid-row-end:end;
     grid-column-start: 1;
     grid-column-end: end;
-    justify-self: start;
     background-color: green;
     width: 100%;
 }
