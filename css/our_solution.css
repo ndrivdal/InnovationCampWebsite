@@ -5,13 +5,13 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 0.2fr 1fr;
 }
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     .containerOurSolution {
         display: grid;
         min-height: 120vh;
     
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 0.2fr 1fr 1fr;
+        grid-template-rows: 0.2fr 1fr;
     }
     .titleOS {
         grid-column-start: 1;
@@ -27,12 +27,7 @@
         grid-row-end: 3;
         padding: 30px;
     }
-    .imgOS {
-        grid-column-start: 1;
-        grid-column-end: end;
-        grid-row-start: 3;
-        grid-row-end: 4;
-    }
+    */
 }
 
 .titleOS {
@@ -67,15 +62,11 @@
 }
 .textOS {
     grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    padding: 30px;
-}
-
-.imgOS {
-    grid-column-start: 3;
     grid-column-end: end;
     grid-row-start: 2;
     grid-row-end: 3;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 100px;
 }
