@@ -18,23 +18,19 @@
     vertical-align: middle;
     margin-top: 1em;
     font-size: 3em;
+    color: darkslategrey;
 }
 .textOS {
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3;
-    background-color: red;
     padding: 30px;
 }
-.textOS p {
-    /*padding-left: 50px;
-    padding-right: 50px;*/
-}
+
 .imgOS {
     grid-column-start: 3;
     grid-column-end: end;
     grid-row-start: 2;
     grid-row-end: 3;
-    background-color: yellow;
 }
