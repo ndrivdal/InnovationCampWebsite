@@ -63,10 +63,6 @@ body {
 
 
 @media screen and (max-width: 830px) {
-    .navbar {
-            
-    }
-
     .navbar a, .navbar .right {
         float: none;
         display: block;
@@ -95,7 +91,7 @@ body {
 .containerFullScreen {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 10% 10% 10% 1fr;
+    grid-template-rows: 10% 10% 10% 10% 1fr;
     width: 100vw;
     min-height: 80vh;
 
@@ -131,4 +127,16 @@ body {
     grid-column-end: end;
     background-color: green;
     width: 100%;
+}
+
+@media screen and (max-width: 830px) {
+    .navbar {
+        grid-row-start: 1;
+        grid-row-end: 5;
+    }
+
+    .main {
+        grid-row-start: 5;
+        grid-row-end: end;
+    }
 }
