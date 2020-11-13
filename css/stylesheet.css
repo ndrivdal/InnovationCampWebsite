@@ -5,10 +5,15 @@ body {
 /* NAVIGATION */
 
 .navbar {
+    grid-column-start: 1;
+    grid-column-end: end;
+    grid-row-start: 1;
+    grid-row-end:2;
     position: relative;
     background-color: #bdd0c4;
     overflow: hidden;
     align-self: start;
+    height: 100%;
 }
 
 .navbar a {
@@ -58,6 +63,10 @@ body {
 
 
 @media screen and (max-width: 830px) {
+    .navbar {
+            
+    }
+
     .navbar a, .navbar .right {
         float: none;
         display: block;
@@ -86,7 +95,7 @@ body {
 .containerFullScreen {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 10% 1fr;
+    grid-template-rows: 10% 10% 10% 1fr;
     width: 100vw;
     min-height: 80vh;
 
