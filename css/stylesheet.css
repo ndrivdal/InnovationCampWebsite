@@ -82,7 +82,7 @@ body {
     }
 }
 
-.logo img {
+.logo a img {
     width: 200px;
     margin-left: 25px;
     padding: 14px 16px;
@@ -156,10 +156,10 @@ body {
         grid-template-rows: 270px 10% 10% 10% 1fr;
     }
 
-    .containerFullScreen .logo img {
+    .containerFullScreen .logo a {
         position: relative;
         left: 50%;
-        transform: translate(-60%);
+        transform: translate(-52.5%);
     }
 
     .main {
