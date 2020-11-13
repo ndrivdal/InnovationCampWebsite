@@ -9,14 +9,32 @@
 }
 
 .heading-container {
-    height: 80px;
-    justify-items: center;
-    background-color: green;
+    margin-top: -22px;
+    height: 100px;
     text-align: center;
     text-decoration-line: underline;
+    background-color: cadetblue;
+}
+
+.heading-container h1 {
+    padding: 30px;
 }
 
 .financing-p {
-    margin: 25px;
-    font-size: 30px;
+    margin: 40px;
+    font-size: 25px;
+}
+
+.img-container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+@media screen and (max-width: 800px){
+    .img-container img {
+        width: 100%;
+        height: auto;
+    }
 }
