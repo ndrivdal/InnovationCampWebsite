@@ -197,6 +197,13 @@ body {
     padding-left: 5vw;
     padding-right: 5vw;
 }
+.titleHome {
+    text-decoration: none;
+    color: darkslategray;
+}
+.linkHome {
+    color: darkslategray;
+}
 
 @media screen and (max-width: 830px) {
     .homeSolution {
