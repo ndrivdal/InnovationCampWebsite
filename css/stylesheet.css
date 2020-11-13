@@ -94,7 +94,6 @@ body {
     grid-template-columns: 1fr;
     grid-template-rows: 75px 10% 10% 10% 1fr;
     min-height: 80vh;
-
 }
 
 .containerFooter {
@@ -129,13 +128,18 @@ body {
 }
 
 @media screen and (max-width: 830px) {
-    .navbar {
-        grid-row-start: 1;
-        grid-row-end: 5;
+    .containerFullScreen {
+        grid-template-rows: 270px 10% 10% 10% 1fr;
+    }
+
+    .containerFullScreen .logo img {
+        position: relative;
+        left: 50%;
+        transform: translate(-60%);
     }
 
     .main {
-        grid-row-start: 5;
+        grid-row-start: 2;
         grid-row-end: end;
     }
 }
