@@ -8,20 +8,12 @@
     font-family: Karla, sans-serif;
 }
 
-@media screen and (max-width: 830px) {
-    .financing-main {
-        grid-row-start: 5;
-        grid-row-end: end;
-    }
-}
-
 .heading-container {
     height: 80px;
     justify-items: center;
     background-color: green;
     text-align: center;
     text-decoration-line: underline;
-
 }
 
 .financing-p {
