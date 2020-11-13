@@ -84,6 +84,7 @@ body {
 }
 
 .containerFullScreen {
+    display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     width: 100vw;
@@ -91,8 +92,9 @@ body {
 }
 
 .containerFooter {
-    grid-template-columns: 20% 1fr 1fr;
-    grid-template-rows: 20% 1fr;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
     width: 100vw;
     min-height: 20vh;
     background-color: grey;
@@ -101,12 +103,17 @@ body {
 
 .footerLogo{
     grid-row-start: 1;
-    grid-row-end: 2;
+    grid-row-end: end;
     grid-column-start: 1;
     grid-column-end: 2;
+    align-self: center;
+    margin-left: 20px;
+
+    content: url("../images/UN Logo.png");
+    width: auto;
     height: 75px;
-    background-color: green;
 }
+
 
 
 .fa {
